@@ -1,0 +1,9 @@
+import os, sys
+import Image
+
+img=Image.open()
+rgbimg=img.load()
+for i in range(5):
+    print rgbimg.getpixel((i, 0))
+
+#http://stackoverflow.com/questions/2363583/python-pil-color-index-to-rgb
